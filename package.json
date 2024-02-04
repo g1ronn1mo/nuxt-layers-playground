@@ -1,5 +1,9 @@
 {
   "name": "layers-playground-vi",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +13,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@8.6.2"
+  "license": "ISC"
 }
